@@ -1,0 +1,30 @@
+.admin-wrapper{
+   display: flex;
+}
+
+.admin-navbar{
+   width: 25%;
+   background-color: #225479;
+   padding: 15px 25px;
+   height: 100vh;
+}
+
+.admin-navbar__list{
+   list-style: none;
+   padding: 0;
+   display: flex;
+   gap: 20px;
+   padding-top: 20px;
+   padding-left: 30px;
+}
+
+.admin-navbar__link{
+   color: white;
+   font-weight: 500;
+   text-decoration: none;
+   transition-duration: 0.5s;
+}
+
+.admin-navbar__link:hover{
+   padding-left: 8px;
+}
